@@ -16,4 +16,4 @@
     win_ping:
 
   - name: send msg
-    win_shell: msg.exe /server:192168.138.134 * "{{ Message }}"
+    win_shell: msg.exe /server:192.168.138.134 * "{{ Message }}"
